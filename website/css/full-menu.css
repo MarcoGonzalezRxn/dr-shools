@@ -1,0 +1,63 @@
+ /* FULL SCREEN MODAL STYLES
+	-------------------------------------------------- */
+	.fullscreen .modal-dialog {
+		margin: 0 0 0 0;
+		width: 100%;
+		height: 100%;
+		min-height: 100%;
+		padding: 0;
+		color: #333;
+	}
+
+	.fullscreen .modal-content {
+		height: 100%;
+		min-height: 100%;
+		border-radius: 0;
+		color: #333;
+		background: rgb(3,37,107);
+		background: -moz-linear-gradient(top, rgb(3,37,107) 0%, rgb(7,134,222) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgb(3,37,107)), color-stop(100%, rgb(7,134,222)));
+		background: -webkit-linear-gradient(top, rgb(3,37,107) 0%, rgb(7,134,222) 100%);
+		background: -o-linear-gradient(top, rgb(3,37,107) 0%, rgb(7,134,222) 100%);
+		background: -ms-linear-gradient(top, rgb(3,37,107) 0%, rgb(7,134,222) 100%);
+		background: linear-gradient(to bottom, rgb(3,37,107) 0%, rgb(7,134,222) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#044c6b', endColorstr='#0c9999', GradientType=0 );
+		overflow:auto;
+	}
+
+	.fullscreen .modal-body ul {
+		padding: 100px 0 0 0;
+	}
+
+	.fullscreen .modal-body li {
+		padding: 10px 0 10px 0 ;
+	}
+
+	.fullscreen .modal-body a {
+		color: #FFF;
+		font-size: 200%;
+		line-height: 1.2em;
+		text-transform: uppercase;
+	}
+
+	.fullscreen .modal-body a:hover {
+		color: #00BCD4;
+	}
+
+	@media (max-width: 480px){
+		.fullscreen .modal-body ul {
+			padding: 30px 0 0 0;
+			overflow: auto;
+		}
+
+		.fullscreen .modal-body li {
+			padding: 4px 0 4px 0 ;
+		}
+
+		.fullscreen .modal-body a {
+			color: #FFF;
+			font-size: 200%;
+			text-transform: uppercase;
+			font-weight: 400;
+		}
+	}

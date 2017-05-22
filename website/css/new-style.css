@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700"');
+
+body {
+	font-size: 1.5em;
+	line-height: 1.6em;
+}
+h2{
+	line-height: inherit;
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5{
+	color: #37474F;
+}
+
+hr {
+    border-color: #0097A7;
+    width: 60px;
+}
+
+p{
+	font-size: inherit;
+}
+
+#tf-historia, #tf-mensaje, #tf-profesores, #tf-cronograma{
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(233,240,245,1)), color-stop(100%, rgba(220,237,233,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(233,240,245,1) 47%, rgba(220,237,233,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcede9', GradientType=1 );
+}
+
+#tf-contacto{
+	background: rgba(206,233,245,1);
+background: -moz-linear-gradient(top, rgba(206,233,245,1) 0%, rgba(161,245,245,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(206,233,245,1)), color-stop(100%, rgba(161,245,245,1)));
+background: -webkit-linear-gradient(top, rgba(206,233,245,1) 0%, rgba(161,245,245,1) 100%);
+background: -o-linear-gradient(top, rgba(206,233,245,1) 0%, rgba(161,245,245,1) 100%);
+background: -ms-linear-gradient(top, rgba(206,233,245,1) 0%, rgba(161,245,245,1) 100%);
+background: linear-gradient(to bottom, rgba(206,233,245,1) 0%, rgba(161,245,245,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee9f5', endColorstr='#a1f5f5', GradientType=0 );
+}
+
+#tf-mensaje, #tf-eventos{
+	padding: 10%  0;
+	text-align: center;
+}
+
+#tf-mesa, #tf-acerca, #tf-historia, #tf-profesores, #tf-cronograma, #tf-contacto{
+	padding: 10% 0; 
+}
+
+#tf-profesores h3, #tf-profesores h4{
+	text-align: center;
+}
+
+#tf-menu.navbar-default .navbar-nav > li > a {
+	font-size: 17px;
+	font-weight: 900;
+	font-family: 'Merienda', sans-serif;
+}
+
+nav#tf-footer {
+    background: #37474F;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #26C6DA;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+    text-align: center;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+    text-align: center;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+  text-align: center;
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-logo{
+	width: 470px;
+}
+
+.profile{
+	border: 2px solid #FFF;
+	-webkit-box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	-moz-box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	box-shadow: 0px 0px 6px 1px rgba(207,207,207,1);
+	width: 200px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #FFF;
+    text-align: center;
+}
+
+.img-responsive.img-center {
+  margin: 0 auto;
+}
+
+.content {
+    padding: 6% 0 10% 0;
+    text-align: center;
+}
+
+.modal {
+	z-index: 10000;
+}
+
+.close {
+    color: #FFF;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=.9);
+    opacity: .9;
+}
+
+
+
